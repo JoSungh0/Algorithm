@@ -15,3 +15,9 @@ same = sorted(list(L&S)) #교집합(&)사용해서 비교 후 list로 한 후 �
 print(len(same))
 for i in same:
     print(i)
+
+#####
+#same = L.intersection(S) #교집합인 부분을 set으로
+#same = list(same) #set-> list
+#same.sort() #사전순 출력을 위해
+#####
