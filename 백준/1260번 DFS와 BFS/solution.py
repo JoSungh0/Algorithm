@@ -9,7 +9,7 @@ N, M, V = map(int, sys.stdin.readline().split())
 tree = [[]*(N+1) for _ in range(N+1)] # 1번부터 시작이므로 N+1
 
 for _ in range(M):
-    a, b = map(int, input().split())
+    a, b = map(int, sys.stdin.readline().split())
     # 각 정점에 서로의 정점을 넣어 연결해줌
     tree[a].append(b)
     tree[b].append(a)
